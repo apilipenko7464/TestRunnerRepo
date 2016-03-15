@@ -3,8 +3,8 @@
 GITHUB_ACCOUNT=apilipenko7464
 WS_DIR=Workspace
 REPO_NAME=HW_36_Title_Validation_CSV
-APP_VERSION=1.1
-MAIN_CLASS=core.Selenium_csv_file_try
+APP_VERSION=1.2
+MAIN_CLASS=core.HTMLUnitSelenium_csv_file_try
 ARGS_01=
 # ========================================
 # ========================================
