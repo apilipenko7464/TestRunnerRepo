@@ -37,7 +37,7 @@ SLEEP 2
 mvn package -Dbuild.version=%APP_VERSION% -DmainClass=%MAIN_CLASS%	
 ECHO.
 ECHO Executing Java programm ...
-java -cp C:\%WS_DIR%\%REPO_NAME%\target\%REPO_NAME%-%APP_VERSION%.jar %MAIN_CLASS% %ARG_01%
+java -cp C:\%WS_DIR%\%REPO_NAME%\target\%REPO_NAME%-%APP_VERSION%-jar-with-dependencies.jar
 GOTO END
 
 :EXIT_JAVA
