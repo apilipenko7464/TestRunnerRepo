@@ -35,9 +35,10 @@ git clone https://github.com/%GITHUB_ACCOUNT%/%REPO_NAME%.git
 CD %REPO_NAME%
 SLEEP 2
 mvn package -Dbuild.version=%APP_VERSION% -DmainClass=%MAIN_CLASS%	
+SLEEP 5
 ECHO.
 ECHO Executing Java programm ...
-java -cp C:\%WS_DIR%\%REPO_NAME%\target\%REPO_NAME%-%APP_VERSION%-jar-with-dependencies.jar
+java -jar C:\%WS_DIR%\%REPO_NAME%\target\%REPO_NAME%-%APP_VERSION%-jar-with-dependencies.jar
 GOTO END
 
 :EXIT_JAVA
